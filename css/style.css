@@ -1,0 +1,100 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Outfit', sans-serif;
+}
+body{
+    background-color: hsl(217, 54%, 11%);
+}
+.container{
+    position: absolute;
+    width: 300px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    box-shadow: 0 -10px 50px hsl(216, 50%, 16%);
+}
+
+.container .image img{
+    width: 85%;
+    margin: 22.5px 22.5px;
+    border-radius: 10px;
+}
+.title-description h2{
+    font-size: 17px;
+    margin-left: 22.5px;
+    color: hsl(0, 0%, 100%);
+    margin-top: -5px;
+}
+.title-description p{
+    color: hsl(215, 51%, 70%);
+    margin-left: 22.5px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+.price-container{
+    display:flex;
+    justify-content: space-between;
+    margin: 0 22.5px;
+    padding: 15px 0;
+    align-items: center;
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+    width: 85%;
+}
+.price{
+    color: hsl(178, 100%, 50%);
+    display: flex;
+    align-items: center;
+    font-size: 0.8em;
+}
+.price img{
+    margin-right: 7px;
+}
+.days{
+    display: flex;
+    align-items: center;
+    color: hsl(215, 51%, 70%);
+    font-size: 0.8em;
+    margin-bottom: 7px;
+
+}
+.days img{
+    margin-right: 5px;
+}
+.creation{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    position: relative;
+}
+.creation img{
+    width: 30px;
+    border: 1px solid white;
+    border-radius: 50%;
+    margin-left: 22.5px;
+    margin-top: 20px;
+    margin-right: 15px;
+}
+.creation span{
+    margin-top: 10px;
+}
+.creation .text{
+    color: hsl(215, 51%, 70%);
+}
+.creation .name{
+    color: white;
+}
+.attribution{
+    color: white;
+}
+a{
+    color: white;
+} 
+a:hover{
+    color: rgba(255, 255, 255, 0.432);
+}
